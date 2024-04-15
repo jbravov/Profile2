@@ -3,7 +3,7 @@
         const form = document.querySelector('.formcontato__form');
 
         form.addEventListener('submit', function(event) {
-            event.preventDefault(); // Evita que el formulario se envíe automáticamente 2
+            event.preventDefault(); // Evita que el formulario se envíe automáticamente 23
 
             // Validar los campos del formulario
             const nombre = form.querySelector('input[name="nombre"]').value.trim();
