@@ -2,6 +2,7 @@
     document.addEventListener("DOMContentLoaded", function() {
         const form = document.querySelector('.formcontato__form');
 
+        
         form.addEventListener('submit', function(event) {
             event.preventDefault(); // Evita que el formulario se envíe automáticamente
 
