@@ -1,5 +1,4 @@
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
         const form = document.querySelector('.formcontato__form');
 
         form.addEventListener('submit', function(event) {
@@ -24,28 +23,11 @@
                 return;
             }
 
-            // Si todas las validaciones pasan, puedes enviar el formulario
-            // Aquí puedes agregar el código para enviar el formulario, por ejemplo, usando AJAX
+          alert("Datos enviados correctamente");
 
-            // Ejemplo:
-            /*
-            fetch('URL_para_enviar_formulario', {
-                method: 'POST',
-                body: new FormData(form)
-            })
-            .then(response => {
-                if (response.ok) {
-                    alert('Mensaje enviado correctamente.');
-                    form.reset(); // Limpiar el formulario después del envío exitoso
-                } else {
-                    throw new Error('Error al enviar el formulario.');
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                alert('Hubo un error al enviar el formulario. Por favor, inténtelo de nuevo más tarde.');
-            });
-            */
+   
+   
+   
         });
     });
-</script>
+
